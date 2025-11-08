@@ -1,5 +1,5 @@
 <template>
-    <div class="grid grid-cols-1 md:grid-cols4 gap-6 mb-6">
+    <div class="grid grid-cols-1 md:grid-cols-4 gap-6 mb-6">
         <div v-for="(stat, index) in statsData" 
         :key="index" 
         class="stats bg-base-100 shadow dark:bg-white/5 dark:backdrop-blur-md 
